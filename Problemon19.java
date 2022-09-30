@@ -2,7 +2,7 @@
 
 // Example 1:
 
-// Input: n = 3
+// Input: n = 2
 // a = {1, 6, 2}
 // Output: -1 1 1
 // Explaination: There is no number at the 

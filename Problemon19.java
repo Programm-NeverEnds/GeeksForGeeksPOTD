@@ -29,8 +29,8 @@ class Problemon19{
         ArrayList<Integer> al = new ArrayList<>();
         
         
-        for(int i=0;i<n;i++){
-            while(!st.isEmpty() && st.peek()>=a[i]){
+        for(int x=0;x<n;x++){
+            while(!st.isEmpty() && st.peek()>=a[x]){
                 st.pop();
             }
             if(st.isEmpty()){
@@ -39,7 +39,7 @@ class Problemon19{
             else{
                 al.add(st.peek());
             }
-            st.push(a[i]);
+            st.push(a[x]);
         }
         return al;
     }
